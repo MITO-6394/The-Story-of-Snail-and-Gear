@@ -1,0 +1,84 @@
+---
+description: by 刘适源
+---
+
+# 海报制作
+
+20年和21年的社团宣传海报、20年（赛季）的社团嘉年华易拉宝都是这种这种方式做的，可供参考
+
+### 主题和赛题
+
+每赛季FIRST会有一个官方主题，如20年叫FIRST RISE，21年叫FIRST GAMECHANGERS
+
+同时FRC会有相应赛题，如20和21是Infinite Recharge
+
+这两年海报制作思路都是去[**官网**](www.firstinspires.org)扒图片
+
+其中FRC的赛季logo可以直接找到下载地址，是一个各种彩色/黑白/横纵的logo压缩包
+
+FIRST主题的宣传图片的话需要自己解析页面元素去扒取
+
+### FRC Logos
+
+以21年为例，在[**firstinspires官网**](www.firstinspires.org)点Programs - FIRST Robotics Competition - Game & Season
+
+![](https://tcs-ga.teambition.net/storage/111x3c14fbf1b14a7061cf8f3f8e21c717be?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXgzYzE0ZmJmMWIxNGE3MDYxY2Y4ZjNmOGUyMWM3MTdiZSJ9.tJ3DqjtxG9SSHwOAXufRYyiCD0QecN-pfhXT05iW_H0&download=Screenshot%202020-09-13%20104631.png)
+
+下拉，找到
+
+![](https://tcs-ga.teambition.net/storage/111x005fb039bd401d2b035c3509d27a4670?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXgwMDVmYjAzOWJkNDAxZDJiMDM1YzM1MDlkMjdhNDY3MCJ9.UCoLW30WmHBEVnQbMut4z6c8nitYXYq0xOozWjqIo38&download=Screenshot%202020-09-13%20104743.png)
+
+下载即可，里边不同文件夹名字代表logo图片文件后缀\(png, jpg, svg etc.\) ，找透明背景的就好
+
+### FIRST主题图片扒取
+
+以21年为例，[**官网**](www.firstinspires.org)能找到赛季主题入口，21年链接为[**https://info.firstinspires.org/2021season**](https://info.firstinspires.org/2021season)
+
+该部分最好由有HTML/CSS基础（程序组）的同学来做
+
+以Chromium内核的Edge浏览器为例（Chrome浏览器应该步骤一样）
+
+打开网页，右键 - 检查\(Inspect\)
+
+![](https://tcs-ga.teambition.net/storage/111x79a72cc491ca3342b54d6218b49a17fd?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXg3OWE3MmNjNDkxY2EzMzQyYjU0ZDYyMThiNDlhMTdmZCJ9.iWpUJFVL-Qt33VQOgYK-8K7M-GC1mup2ubdQC58KGUQ&download=Screenshot%202020-09-13%20105625.png)
+
+浏览器右边或下边会弹出开发者工具，以下图为例
+
+![](https://tcs-ga.teambition.net/storage/111x9adc5015c54d8754d73316f6ad070257?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXg5YWRjNTAxNWM1NGQ4NzU0ZDczMzE2ZjZhZDA3MDI1NyJ9.NV293GIx582sB5_glu427t3vbWyfoYQIPfPtsxaBtPs&download=Screenshot%202020-09-13%20110006.png)
+
+红色小按钮用来选取页面元素，点一下后鼠标放在网页上每个选中的block都会和右边的html源码相对应
+
+黄色圈内区域是该网页html代码，鼠标点到一个标签会在左边网页上标出相对应的展示效果
+
+绿色圈内是当前选中的html标签的css样式
+
+一般我们所需的图片都会是标签，如![](https://thisisanimage.svg)
+
+![](https://tcs-ga.teambition.net/storage/111x5425f37350388a956dc90b3a470e6721?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXg1NDI1ZjM3MzUwMzg4YTk1NmRjOTBiM2E0NzBlNjcyMSJ9.7NoLWs0TqmTbb3yJdOZiZQ2SVVAhr7OfEZC9drVhO3g&download=image.png)
+
+如上图中左边logo图片被标出，右边蓝色选中区域是其对应的img标签源码
+
+src=后的引号内是该图片的地址，复制并打开这个链接即可下载（多半是svg文件）
+
+部分内容如页面**背景图片**可能不是由标签实现，而是在css代码中
+
+![](https://tcs-ga.teambition.net/storage/111xea3e4b0d9700be22e22dfdd48beed4b2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXhlYTNlNGIwZDk3MDBiZTIyZTIyZGZkZDQ4YmVlZDRiMiJ9.fyUDvHRf91rDleaKhNmGlEfWZJZ3dmEvlkgqWsIARFc&download=Screenshot%202020-09-13%20111458.png)
+
+如上图中是用background-image这个property实现的，url\(\)内为图片链接
+
+其他非图片元素的颜色、字体等等都可以在html标签或css代码中找到
+
+![](https://tcs-ga.teambition.net/storage/111x80fc3a8365366f067bb0fc46dde0c4a7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXg4MGZjM2E4MzY1MzY2ZjA2N2JiMGZjNDZkZGUwYzRhNyJ9.hqnRCS4sEIhO9wF9ZZnaXzWZav_yAErGrDSeIAcBF0c&download=Screenshot%202020-09-13%20111923.png)
+
+如上图中"3K+"的字体为Abolition和sans-serif（一般只看第一个字体即这里的Abolition就好了）
+
+![](https://tcs-ga.teambition.net/storage/111x9c27fd5429ea2106dea0702ebe4cc2b5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXg5YzI3ZmQ1NDI5ZWEyMTA2ZGVhMDcwMmViZTRjYzJiNSJ9._1kG5vMZZ2dg59jLuHU53mzi-S2kaBTg16kY2QFPG2Y&download=Screenshot%202020-09-13%20112137.png)
+
+如上图中这个绿色的大方块的颜色为\#9ac53d（css代码内找到）
+
+最后弄到的图片啦什么东西啦拉到ppt里做海报就行了
+
+如果实在看不懂（因为写详细实在太麻烦了）可以去稍微系统地了解下HTML和CSS
+
+Anyways，这只是这两年我们制作海报的方法，其实主要元素只是FIRST和FRC，并没怎么突显我们自己的队伍。如果有很棒的美工/宣传组成员可以自行制作海报的，欢迎摒弃/结合这种方法！
+
