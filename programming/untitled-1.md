@@ -1,20 +1,24 @@
 ---
-description: It might be confused to see some sensors labelled with
+description: by 刘适源
 ---
 
-# Analog vs. Digital
+# Analog vs Digital
+
+{% hint style="info" %}
+It might be confused to see some sensors labelled with "analog". This page explains differences between analog sensors and digital sensors.
+{% endhint %}
 
 ### Diffs between Analog signals and Digital signals
 
-This part is covered in AS Computer Science
+This part is also covered in AS Computer Science.
 
-Analog signals are continuous in nature.
+**Analog signals are continuous in nature**
 
-e.g. sound, ink on a paper
+e.g. sound
 
-Diginal signals are discrete
+**Digital signals are discrete**
 
-e.g. "ink" on an iPad left by an Apple Pencil \(stored as 1s and 0s, RGB code is used to represent its color\)
+e.g. digital pictures \(stored in pixels with RGB code, become blurry if you zoom in. In comparison, objects in the reality are always vivid, they send analog signals\)
 
 ![](https://tcs-ga.teambition.net/storage/311yc242b086b2db0a4aec90d0b646aa7529?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMjk5NzA1OCwiaWF0IjoxNjAyMzkyMjU4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMXljMjQyYjA4NmIyZGIwYTRhZWM5MGQwYjY0NmFhNzUyOSJ9.6XhgV546L6lRv217u8XtgH_fo5ksxqP18SpiIUsxv8I&download=image.png)
 
