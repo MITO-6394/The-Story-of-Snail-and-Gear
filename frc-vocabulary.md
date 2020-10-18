@@ -1,4 +1,4 @@
-# FRC Vocabulary
+# FRC Glossary
 
 ## Engineering
 
@@ -15,6 +15,8 @@ rotary shaft 转轴
 ## Control System
 
 actuator n. 驱动器 a device that causes a machine or other device to operate
+
+motor n. 电机
 
 motor controller 电机控制器
 

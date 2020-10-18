@@ -17,5 +17,5 @@
 
 ---
 
-* [FRC Vocabulary](frc-vocabulary.md)
+* [FRC Glossary](frc-vocabulary.md)
 
