@@ -28,7 +28,5 @@ shaft n. 转轴
 
 rotary shaft 转轴
 
-
-
 ## Programming
 

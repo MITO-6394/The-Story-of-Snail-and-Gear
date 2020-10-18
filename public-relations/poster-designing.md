@@ -12,7 +12,7 @@ description: by 刘适源
 
 同时FRC会有相应赛题，如20和21是Infinite Recharge
 
-这两年海报制作思路都是去[**官网**](www.firstinspires.org)扒图片
+这两年海报制作思路都是去[**官网**](https://github.com/MITO-6394/The-Story-of-Snail-and-Gear/tree/d60718a293d794e83935e8980acf939c13078d76/public-relations/www.firstinspires.org)扒图片
 
 其中FRC的赛季logo可以直接找到下载地址，是一个各种彩色/黑白/横纵的logo压缩包
 
@@ -20,7 +20,7 @@ FIRST主题的宣传图片的话需要自己解析页面元素去扒取
 
 ## FRC Logos
 
-以21年为例，在[**firstinspires官网**](www.firstinspires.org)点Programs - FIRST Robotics Competition - Game & Season
+以21年为例，在[**firstinspires官网**](https://github.com/MITO-6394/The-Story-of-Snail-and-Gear/tree/d60718a293d794e83935e8980acf939c13078d76/public-relations/www.firstinspires.org)点Programs - FIRST Robotics Competition - Game & Season
 
 ![](https://tcs-ga.teambition.net/storage/111x3c14fbf1b14a7061cf8f3f8e21c717be?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXgzYzE0ZmJmMWIxNGE3MDYxY2Y4ZjNmOGUyMWM3MTdiZSJ9.tJ3DqjtxG9SSHwOAXufRYyiCD0QecN-pfhXT05iW_H0&download=Screenshot%202020-09-13%20104631.png)
 
@@ -32,7 +32,7 @@ FIRST主题的宣传图片的话需要自己解析页面元素去扒取
 
 ## FIRST主题图片扒取
 
-以21年为例，[**官网**](www.firstinspires.org)能找到赛季主题入口，21年链接为[**https://info.firstinspires.org/2021season**](https://info.firstinspires.org/2021season)
+以21年为例，[**官网**](https://github.com/MITO-6394/The-Story-of-Snail-and-Gear/tree/d60718a293d794e83935e8980acf939c13078d76/public-relations/www.firstinspires.org)能找到赛季主题入口，21年链接为[**https://info.firstinspires.org/2021season**](https://info.firstinspires.org/2021season)
 
 该部分最好由有HTML/CSS基础（程序组）的同学来做
 
