@@ -2,6 +2,10 @@
 
 ## Engineering
 
+{% hint style="info" %}
+Engineering这部分程序组也要看
+{% endhint %}
+
 diagonal cutter n. 斜口钳
 
 solder v. 焊接
