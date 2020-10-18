@@ -6,7 +6,7 @@ description: by 刘适源
 
 20年和21年的社团宣传海报、20年（赛季）的社团嘉年华易拉宝都是这种这种方式做的，可供参考
 
-### 主题和赛题
+## 主题和赛题
 
 每赛季FIRST会有一个官方主题，如20年叫FIRST RISE，21年叫FIRST GAMECHANGERS
 
@@ -18,7 +18,7 @@ description: by 刘适源
 
 FIRST主题的宣传图片的话需要自己解析页面元素去扒取
 
-### FRC Logos
+## FRC Logos
 
 以21年为例，在[**firstinspires官网**](www.firstinspires.org)点Programs - FIRST Robotics Competition - Game & Season
 
@@ -30,7 +30,7 @@ FIRST主题的宣传图片的话需要自己解析页面元素去扒取
 
 下载即可，里边不同文件夹名字代表logo图片文件后缀\(png, jpg, svg etc.\) ，找透明背景的就好
 
-### FIRST主题图片扒取
+## FIRST主题图片扒取
 
 以21年为例，[**官网**](www.firstinspires.org)能找到赛季主题入口，21年链接为[**https://info.firstinspires.org/2021season**](https://info.firstinspires.org/2021season)
 

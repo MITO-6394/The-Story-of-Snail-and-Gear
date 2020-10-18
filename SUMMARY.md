@@ -8,10 +8,14 @@
 
 ## 程序：让齿轮驱动蜗牛！ <a id="programming"></a>
 
-* [Analog vs Digital](programming/untitled-1.md)
-* [Driverstation 问题汇总](programming/untitled.md)
+* [Driverstation 问题汇总](programming/driverstation-issues.md)
+* [Analog vs Digital](programming/analog-vs-digital.md)
 
-## 宣传：齿轮蜗牛更好看吗？ <a id="public-relations"></a>
+## 宣传：齿轮蜗牛会更好看吗？ <a id="public-relations"></a>
 
-* [海报制作](public-relations/hai-bao-zhi-zuo.md)
+* [海报制作](public-relations/poster-designing.md)
+
+---
+
+* [FRC Glossary](frc-vocabulary.md)
 
