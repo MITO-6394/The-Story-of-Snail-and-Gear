@@ -11,9 +11,9 @@
 * [Driverstation 问题汇总](programming/driverstation-issues.md)
 * [Analog vs Digital](programming/analog-vs-digital.md)
 
-## 比赛：蜗牛和齿轮的故事
+## 比赛：蜗牛和齿轮的故事 <a id="competition"></a>
 
-* [Awards](bi-sai-wo-niu-he-chi-lun-de-gu-shi/awards.md)
+* [Awards](competition/awards.md)
 
 ## 宣传：齿轮蜗牛会更好看吗？ <a id="public-relations"></a>
 
