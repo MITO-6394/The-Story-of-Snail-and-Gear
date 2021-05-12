@@ -8,7 +8,7 @@
 
 ## 程序：让齿轮驱动蜗牛！ <a id="programming"></a>
 
-* [Driverstation 问题汇总](programming/driverstation-issues.md)
+* [Driverstation问题汇总](programming/driverstation-issues.md)
 * [Analog vs Digital](programming/analog-vs-digital.md)
 
 ## 比赛：蜗牛和齿轮的故事 <a id="competition"></a>
@@ -18,8 +18,13 @@
 ## 宣传：齿轮蜗牛会更好看吗？ <a id="public-relations"></a>
 
 * [海报制作](public-relations/poster-designing.md)
+* [Resources](public-relations/resources.md)
 
 ---
 
 * [FRC Glossary](frc-vocabulary.md)
+
+## 日志：蜗牛的世界游记 <a id="logs"></a>
+
+* [Untitled](logs/untitled.md)
 

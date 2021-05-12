@@ -1,3 +1,7 @@
+---
+description: 'Contributor: 刘适源'
+---
+
 # FRC Glossary
 
 ## Engineering
@@ -23,6 +27,12 @@ actuator n. 驱动器 a device that causes a machine or other device to operate
 motor n. 电机
 
 motor controller 电机控制器
+
+port n. 端口，端口号
+
+pin n. 针脚，插针
+
+![A VGA connector with 15 pins](.gitbook/assets/image.png)
 
 shaft n. 转轴
 
