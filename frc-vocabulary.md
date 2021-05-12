@@ -22,7 +22,7 @@ rotary shaft 转轴
 
 ## Control System
 
-actuator n. 驱动器 a device that causes a machine or other device to operate
+actuator n. 驱动器
 
 motor n. 电机
 
@@ -37,6 +37,14 @@ pin n. 针脚，插针
 shaft n. 转轴
 
 rotary shaft 转轴
+
+### Sensors
+
+accelerometer: A common sensor used to measure acceleration in one or more axis. 加速度计
+
+gyroscope: A device that measures rate of rotation. It can add up the rotation measurements to determine the direction of the robot. \(“gyro”, for short\) 陀螺仪
+
+
 
 ## Programming
 
