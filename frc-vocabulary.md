@@ -44,6 +44,10 @@ accelerometer: A common sensor used to measure acceleration in one or more axis.
 
 gyroscope: A device that measures rate of rotation. It can add up the rotation measurements to determine the direction of the robot. \(“gyro”, for short\) 陀螺仪
 
+ultrasonics 超声波传感器（用于测距）
+
+encoder 编码器 Encoders are devices used to measure motion \(usually, the rotation of a shaft\).
+
 
 
 ## Programming
