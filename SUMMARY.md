@@ -22,7 +22,7 @@
 
 ---
 
-* [FRC Glossary](frc-vocabulary.md)
+* [FRC Glossary](glossary.md)
 
 ## 日志：蜗牛的世界游记 <a id="logs"></a>
 
