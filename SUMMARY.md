@@ -9,11 +9,8 @@
 ## 程序：让齿轮驱动蜗牛！ <a id="programming"></a>
 
 * [Driverstation 问题汇总](programming/driverstation-issues.md)
-* [Analog vs Digital](programming/analog-vs-digital.md)
-
-## 比赛：蜗牛和齿轮的故事 <a id="competition"></a>
-
-* [Awards](competition/awards.md)
+* [Analog vs Digital](programming/analog-vs-digital/README.md)
+  * [Sampling](programming/analog-vs-digital/sampling.md)
 
 ## 宣传：齿轮蜗牛会更好看吗？ <a id="public-relations"></a>
 
@@ -21,5 +18,5 @@
 
 ---
 
-* [FRC Glossary](frc-vocabulary.md)
+* [FRC Vocabulary](frc-vocabulary.md)
 
