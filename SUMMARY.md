@@ -1,6 +1,6 @@
 # Table of contents
 
-* [《论蜗牛与齿轮的故事》](README.md)
+* [《蜗牛与齿轮的故事》](README.md)
 
 ## 机械：给蜗牛安装齿轮！ <a id="engineering"></a>
 
