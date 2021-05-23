@@ -15,7 +15,7 @@
 
 * [Awards](competition/awards.md)
 
-## 宣传：齿轮蜗牛会更好看吗？ <a id="public-relations"></a>
+## 宣传：蜗牛装齿轮会更好看吗？ <a id="public-relations"></a>
 
 * [海报制作](public-relations/poster-designing.md)
 * [Resources](public-relations/resources.md)

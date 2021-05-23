@@ -4,11 +4,7 @@ description: 'Contributor: 刘适源'
 
 # FRC Glossary
 
-## Engineering
-
-{% hint style="info" %}
-Engineering这部分程序组也要看
-{% endhint %}
+## Mechanics
 
 diagonal cutter n. 斜口钳
 
@@ -19,6 +15,10 @@ tin n. 锡 v. 镀锡
 shaft n. 转轴
 
 rotary shaft 转轴
+
+coast v. 惯性滑行
+
+neutral n. 空档（齿轮与引擎未连接的状态，如汽车挂空档）
 
 ## Control System
 
@@ -47,6 +47,8 @@ gyroscope: A device that measures rate of rotation. It can add up the rotation m
 ultrasonics 超声波传感器（用于测距）
 
 encoder 编码器 Encoders are devices used to measure motion \(usually, the rotation of a shaft\).
+
+limit switch 限位开关
 
 
 
