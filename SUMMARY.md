@@ -1,6 +1,8 @@
 # Table of contents
 
 * [《蜗牛与齿轮的故事》](README.md)
+* [FRC Glossary](glossary.md)
+* [Resources](resources.md)
 
 ## 机械：给蜗牛安装齿轮！ <a href="#engineering" id="engineering"></a>
 
@@ -19,11 +21,6 @@
 ## 宣传：蜗牛装齿轮会更好看吗？ <a href="#public-relations" id="public-relations"></a>
 
 * [海报制作](public-relations/poster-designing.md)
-* [Resources](public-relations/resources.md)
-
-***
-
-* [FRC Glossary](glossary.md)
 
 ## 日志：蜗牛的世界游记 <a href="#logs" id="logs"></a>
 
