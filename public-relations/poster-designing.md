@@ -4,53 +4,57 @@ description: by 刘适源
 
 # 海报制作
 
-20年和21年的社团宣传海报、20年（赛季）的社团嘉年华易拉宝都是这种这种方式做的，可供参考
+{% hint style="success" %}
+2021 和 2022 赛季的宣传海报和易拉宝是用这种方式制做的，可供参考
+{% endhint %}
 
 ## 主题和赛题
 
-每赛季FIRST会有一个官方主题，如20年叫FIRST RISE，21年叫FIRST GAMECHANGERS
+每赛季 FIRST 会有一个官方主题，如 2020 赛季叫 FIRST RISE，2021 赛季叫 FIRST GAMECHANGERS
 
-同时FRC会有相应赛题，如20和21是Infinite Recharge
+同时 FRC 也会有相应赛题，如 20 和 21 年是 Infinite Recharge
 
-这两年海报制作思路都是去[_FIRST_官网](https://www.firstinspires.org)扒图片
+这两年海报制作思路都是去 [_FIRST_ 官网](https://www.firstinspires.org)扒图片
 
-其中FRC的赛季logo可以直接找到下载地址，是一个各种彩色/黑白/横纵的logo压缩包
+其中 FRC 的赛季 logo 可以直接找到下载地址，是一个各种彩色/黑白/横纵的 logo 压缩包
 
-FIRST主题的宣传图片的话需要自己解析页面元素去扒取
+FIRST 主题的宣传图片的话需要自己解析页面元素去扒取
 
-## FRC Logos
+## 官方资源
 
-以21年为例，在[_FIRST_官网](https://www.firstinspires.org)点Programs - FIRST Robotics Competition - Game & Season
+FRC Resource Library: [https://www.firstinspires.org/resource-library/frc/team-management-resources](https://www.firstinspires.org/resource-library/frc/team-management-resources)
 
-![](https://tcs-ga.teambition.net/storage/111x3c14fbf1b14a7061cf8f3f8e21c717be?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXgzYzE0ZmJmMWIxNGE3MDYxY2Y4ZjNmOGUyMWM3MTdiZSJ9.tJ3DqjtxG9SSHwOAXufRYyiCD0QecN-pfhXT05iW\_H0\&download=Screenshot%202020-09-13%20104631.png)
+FIRST Brand and Logo Files: [https://www.firstinspires.org/brand](https://www.firstinspires.org/brand)
 
-下拉，找到
+Season Content and Logos: [https://info.firstinspires.org/free-season-content](https://info.firstinspires.org/free-season-content)\
+赛季的资源，包括 logo 文件，社交媒体宣传图片和**海报模板**\
+****海报模板不推荐直接使用，但其中有很多图片元素可以用 [Inkscape](https://inkscape.org) 扒下来使用
 
-![](https://tcs-ga.teambition.net/storage/111x005fb039bd401d2b035c3509d27a4670?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXgwMDVmYjAzOWJkNDAxZDJiMDM1YzM1MDlkMjdhNDY3MCJ9.UCoLW30WmHBEVnQbMut4z6c8nitYXYq0xOozWjqIo38\&download=Screenshot%202020-09-13%20104743.png)
+找到需要的 FIRST/FRC/赛季题目资源下载即可，里边不同文件夹名字代表logo图片文件后缀（png 支持透明背景，svg 为矢量图）
 
-下载即可，里边不同文件夹名字代表logo图片文件后缀(png, jpg, svg etc.) ，找透明背景的就好
+## 手动扒取资源
 
-## FIRST主题图片扒取
+官方提供的资源往往是不够用的，这时我们就可以去手动扒取赛题网页上的网页元素用
 
-以21年为例，[官网](https://www.firstinspires.org)能找到赛季主题入口，21年链接为[**https://info.firstinspires.org/2021season**](https://info.firstinspires.org/2021season)
+以 22 年为例，[官网](https://www.firstinspires.org)能找到赛季主题入口，22 年赛题链接为[**https://info.firstinspires.org/2021season**](https://info.firstinspires.org/2021season)
 
-该部分最好由有HTML/CSS基础（程序组）的同学来做
+该部分最好由有 HTML/CSS 基础（程序组）的同学来做
 
-以Chromium内核的Edge浏览器为例（Chrome浏览器应该步骤一样）
+以 Chromium 内核的Edge浏览器为例（Chrome浏览器步骤一样）
 
-打开网页，右键 - 检查(Inspect)
+打开网页，右键 - 检查（Inspect）
 
-![](https://tcs-ga.teambition.net/storage/111x79a72cc491ca3342b54d6218b49a17fd?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXg3OWE3MmNjNDkxY2EzMzQyYjU0ZDYyMThiNDlhMTdmZCJ9.iWpUJFVL-Qt33VQOgYK-8K7M-GC1mup2ubdQC58KGUQ\&download=Screenshot%202020-09-13%20105625.png)
+![](<../.gitbook/assets/Screenshot 2021-12-30 181722.png>)
 
 浏览器右边或下边会弹出开发者工具，以下图为例
 
-![](https://tcs-ga.teambition.net/storage/111x9adc5015c54d8754d73316f6ad070257?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwMzAyOTEzOSwiaWF0IjoxNjAyNDI0MzM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMXg5YWRjNTAxNWM1NGQ4NzU0ZDczMzE2ZjZhZDA3MDI1NyJ9.NV293GIx582sB5\_glu427t3vbWyfoYQIPfPtsxaBtPs\&download=Screenshot%202020-09-13%20110006.png)
+![](<../.gitbook/assets/Screenshot 2022-01-01 184726.png>)
 
-红色小按钮用来选取页面元素，点一下后鼠标放在网页上每个选中的block都会和右边的html源码相对应
+红色小按钮用来选取页面元素，点一下后鼠标放在网页上每个选中的 block 都会和右边的 html 源码相对应
 
-黄色圈内区域是该网页html代码，鼠标点到一个标签会在左边网页上标出相对应的展示效果
+黄色圈内区域是该网页 html 代码，鼠标点到一个标签会在左边网页上标出相对应的展示效果
 
-绿色圈内是当前选中的html标签的css样式
+绿色圈内是当前选中的 html 标签的 css 样式
 
 一般我们所需的图片都会是标签，如![](https://thisisanimage.svg)
 
