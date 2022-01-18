@@ -12,6 +12,7 @@
 
 * [Driverstation 问题汇总](programming/driverstation-issues.md)
 * [Analog vs Digital](programming/analog-vs-digital.md)
+* [程序命名规范](programming/cheng-xu-ming-ming-gui-fan.md)
 
 ## 比赛：蜗牛和齿轮的故事 <a href="#competition" id="competition"></a>
 
