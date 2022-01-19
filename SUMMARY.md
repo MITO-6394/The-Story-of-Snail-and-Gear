@@ -12,12 +12,12 @@
 
 * [Driverstation 问题汇总](programming/driverstation-issues.md)
 * [Analog vs Digital](programming/analog-vs-digital.md)
-* [程序命名规范](programming/cheng-xu-ming-ming-gui-fan.md)
+* [程序命名规范](programming/naming-conventions.md)
 
 ## 比赛：蜗牛和齿轮的故事 <a href="#competition" id="competition"></a>
 
 * [Awards](competition/awards.md)
-* [采购](competition/cai-gou.md)
+* [采购](competition/procurement.md)
 
 ## 宣传：蜗牛装齿轮会更好看吗？ <a href="#public-relations" id="public-relations"></a>
 
