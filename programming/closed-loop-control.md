@@ -2,7 +2,7 @@
 
 ## Motion Profiling
 
-Chief Delphi 上名为 nuttle 的用户在评价 [Official SDS MK3 & MK4 Code](https://www.chiefdelphi.com/t/official-sds-mk3-mk4-code/397109) 时这样解释 motion profile:
+Chief Delphi 上名为 nuttle 的用户在评价 [Official SDS MK3 & MK4 Code](https://www.chiefdelphi.com/t/official-sds-mk3-mk4-code/397109) 时[这样](https://www.chiefdelphi.com/t/official-sds-mk3-mk4-code/397109/9)解释 motion profile:
 
 > Given how widely this code is likely to be used, and how much derivative work is likely to come from this code, it would be good to explore using ProfiledPIDController, and/or the equivalent on whichever motor controller (especially for steering).
 >
