@@ -11,6 +11,7 @@
 ## 程序：让齿轮驱动蜗牛！ <a href="#programming" id="programming"></a>
 
 * [Driverstation 问题汇总](programming/driverstation-issues.md)
+* [Closed-Loop Control](programming/closed-loop-control.md)
 * [Analog vs Digital](programming/analog-vs-digital.md)
 * [程序命名规范](programming/naming-conventions.md)
 
