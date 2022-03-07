@@ -21,5 +21,12 @@ Windows 10  可按 Ctrl + I 打开系统设置或在控制面板内关闭防火�
 多是由 CAN bus utilization 太高造成的，driverstation上可以找到 CAN bus 的占用率
 
 1. 将 PID 控制转为 on-board
-2. 参考 254 的 [LazyTalonFX](https://github.com/Team254/FRC-2020-Public/blob/master/src/main/java/com/team254/lib/drivers/LazyTalonFX.java)
-3. 考虑使用 TalonFX.setStatusFramePeriod()
+2.  参考 254 的 [LazyTalonFX](https://github.com/Team254/FRC-2020-Public/blob/master/src/main/java/com/team254/lib/drivers/LazyTalonFX.java)
+
+    &#x20;   不确定是否有效，见 WPILib 开发者的[回复](https://www.chiefdelphi.com/t/does-the-rev-pdh-have-adjustable-periodic-status-frames/404895/11)：
+
+> Doing that doesn’t help anyway. Because the CAN Heartbeats for all the existing motor controllers are sent as part of the control packets, the control packets have to be repeated over the bus anyway. So the control packets are going to go out anyway.
+>
+> Note this could have changed in recent years, and also could change in future years, but based on the last time I looked at the control encryption this was how they all worked.
+
+1. 使用 TalonFX.setStatusFramePeriod()
