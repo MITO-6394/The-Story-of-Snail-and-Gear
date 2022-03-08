@@ -13,6 +13,7 @@
 * [Driverstation 问题汇总](programming/driverstation-issues.md)
 * [Closed-Loop Control](programming/closed-loop-control.md)
 * [Analog vs Digital](programming/analog-vs-digital.md)
+* [CAN Bus Utilization](programming/can-bus-utilization.md)
 * [程序命名规范](programming/naming-conventions.md)
 
 ## 比赛：蜗牛和齿轮的故事 <a href="#competition" id="competition"></a>
