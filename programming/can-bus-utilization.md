@@ -26,4 +26,11 @@ DS 上的显示数据可能会频繁跳动导致难以识别具体的利用率�
 
 * 改变 CAN 设备的 status frame rate，如 TalonFX.setStatusFramePeriod(), CANSparkMax.setPeriodicFramePeriod()
 * 参考该[笔记](https://www.hi-im.kim/canbus)
+* &#x20;[https://www.chiefdelphi.com/t/does-the-rev-pdh-have-adjustable-periodic-status-frames/404895/15](https://www.chiefdelphi.com/t/does-the-rev-pdh-have-adjustable-periodic-status-frames/404895/15?u=row0)
+
+> Couple of other points on improving can bus util (for CTRE devices):
+>
+> * When setting status frame periods make sure you check the error code and try again if it’s non-zero. Your bus util with that selection of devices will be at or over 100% on boot so you may see timeouts in Begin.vi and need to try again until they succeed.
+> * Double-check you’re only calling config\* routines once or on trigger and not accidentally calling them in a loop - they generate extra CAN traffic.
+> * As Thad mentioned, calling Set does not generate CAN traffic. HOWEVER, you can change the send period of the control frame as well as the status frame. By default this is 10ms so you can save quite a bit of bandwidth here. As long as you’re comfortable with the response time of your mechanism you’re probably OK changing this to 20ms on most controllers, and on followers you could set it as high as 50ms and likely be safe. Note the controller will timeout and disable if the control data hasn’t been received in over 100ms so I recommend 50ms as the absolute maximum for control frame periods.
 
