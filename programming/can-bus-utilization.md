@@ -16,6 +16,7 @@ DS 上的显示数据可能会频繁跳动导致难以识别具体的利用率�
 
 * 参考[https://www.chiefdelphi.com/t/canbus-utilization-cancoders-can-frame-not-received-too-stale/402791](https://www.chiefdelphi.com/t/canbus-utilization-cancoders-can-frame-not-received-too-stale/402791)
 * 将 PID 控制转为 on-board
+* 将不必要的 CAN 设备转为 PWM（如只需 open-looped control 的设备）
 * 参考 254 的 [LazyTalonFX](https://github.com/Team254/FRC-2020-Public/blob/master/src/main/java/com/team254/lib/drivers/LazyTalonFX.java)
 
 &#x20;   不确定是否有效，见 WPILib 开发者的[回复](https://www.chiefdelphi.com/t/does-the-rev-pdh-have-adjustable-periodic-status-frames/404895/11)：
