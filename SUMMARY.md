@@ -15,6 +15,7 @@
 * [Analog vs Digital](programming/analog-vs-digital.md)
 * [CAN Bus Utilization](programming/can-bus-utilization.md)
 * [程序命名规范](programming/naming-conventions.md)
+* [路由器问题汇总](programming/lu-you-qi-wen-ti-hui-zong.md)
 
 ## 比赛：蜗牛和齿轮的故事 <a href="#competition" id="competition"></a>
 

@@ -25,7 +25,11 @@ DS 上的显示数据可能会频繁跳动导致难以识别具体的利用率�
 >
 > Note this could have changed in recent years, and also could change in future years, but based on the last time I looked at the control encryption this was how they all worked.
 
-* 改变 CAN 设备的 status frame rate，如 TalonFX.setStatusFramePeriod(), CANSparkMax.setPeriodicFramePeriod()
+* 改变 CAN 设备的 status frame rate
+  * CTRE 的设备使用 `setStatusFramePeriod()`\
+    ``具体配置哪一项/如何配置 见 [https://docs.ctre-phoenix.com/en/stable/ch18\_CommonAPI.html](https://docs.ctre-phoenix.com/en/stable/ch18\_CommonAPI.html)
+  * REV 的设备用 `setPeriodicFramePeriod()`\
+    ``具体配置哪一项/如何配置 见 [https://docs.revrobotics.com/sparkmax/operating-modes/control-interfaces#periodic-status-frames](https://docs.revrobotics.com/sparkmax/operating-modes/control-interfaces#periodic-status-frames)
 * 参考该[笔记](https://www.hi-im.kim/canbus)
 * &#x20;[https://www.chiefdelphi.com/t/does-the-rev-pdh-have-adjustable-periodic-status-frames/404895/15](https://www.chiefdelphi.com/t/does-the-rev-pdh-have-adjustable-periodic-status-frames/404895/15?u=row0)
 

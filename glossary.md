@@ -1,7 +1,3 @@
----
-description: 'Contributor: 刘适源'
----
-
 # FRC Glossary
 
 ## Mechanics
@@ -42,15 +38,14 @@ rotary shaft 转轴
 
 accelerometer: A common sensor used to measure acceleration in one or more axis. 加速度计
 
-gyroscope: A device that measures rate of rotation. It can add up the rotation measurements to determine the direction of the robot. \(“gyro”, for short\) 陀螺仪
+gyroscope: A device that measures rate of rotation. It can add up the rotation measurements to determine the direction of the robot. (“gyro”, for short) 陀螺仪
 
 ultrasonics 超声波传感器（用于测距）
 
-encoder 编码器 Encoders are devices used to measure motion \(usually, the rotation of a shaft\).
+encoder 编码器 Encoders are devices used to measure motion (usually, the rotation of a shaft).
 
 limit switch 限位开关
 
 
 
 ## Programming
-
