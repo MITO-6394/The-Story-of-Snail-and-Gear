@@ -2,6 +2,10 @@
 
 ## Mechanics
 
+chassis n. 底盘
+
+superstructure n. 上层结构（anything other than the chassis）
+
 diagonal cutter n. 斜口钳
 
 solder v. 焊接
