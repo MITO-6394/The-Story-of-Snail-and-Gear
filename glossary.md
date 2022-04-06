@@ -12,9 +12,15 @@ solder v. 焊接
 
 tin n. 锡 v. 镀锡
 
+axle n. 轴
+
 shaft n. 转轴
 
 rotary shaft 转轴
+
+bearing n. 轴承
+
+gear n. 齿轮
 
 coast v. 惯性滑行
 
